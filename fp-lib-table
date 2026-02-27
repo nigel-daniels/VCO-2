@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Rotary Switch")(type "KiCad")(uri "${KIPRJMOD}/ul_SR1712F-0106-20F0A-N9-N-027/KiCADv6/footprints.pretty")(options "6 - 1")(descr "Alpha SR1712F series"))
+  (lib (name "Switch")(type "KiCad")(uri "${KIPRJMOD}/switch SPDT")(options "SPDT")(descr "Toggle switch"))
+)
