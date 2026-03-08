@@ -1395,159 +1395,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack2"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack2_0_1"
-				(rectangle
-					(start -3.81 0)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioJack2_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Audio:AudioJack2_SwitchT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2905,6 +2752,22 @@
 		(uuid "d52e1730-1d17-4c64-aa95-adb6aac5c425")
 	)
 	(no_connect
+		(at 266.7 82.55)
+		(uuid "9901b9aa-50a5-4522-b6e2-6031e54f37df")
+	)
+	(no_connect
+		(at 266.7 99.06)
+		(uuid "a5cebd7c-0227-47d3-a851-4a3ad71e3a25")
+	)
+	(no_connect
+		(at 266.7 66.04)
+		(uuid "aa428acb-b76f-4841-9725-674bdca143a3")
+	)
+	(no_connect
+		(at 266.7 115.57)
+		(uuid "b6990ab7-c3f4-4a8c-90fe-c2d794e52361")
+	)
+	(no_connect
 		(at 135.89 63.5)
 		(uuid "c8efc624-26b6-4ff3-913d-cfb881744503")
 	)
@@ -3040,7 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 92.71) (xy 264.16 87.63)
+			(xy 264.16 93.98) (xy 264.16 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +2983,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 109.22) (xy 266.7 109.22)
+			(xy 248.92 113.03) (xy 266.7 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3160,7 +3023,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 95.25) (xy 266.7 95.25)
+			(xy 251.46 96.52) (xy 266.7 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3260,7 +3123,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 106.68) (xy 264.16 101.6)
+			(xy 264.16 110.49) (xy 264.16 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3310,7 +3173,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 92.71) (xy 264.16 92.71)
+			(xy 266.7 93.98) (xy 264.16 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3330,7 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 64.77) (xy 264.16 64.77)
+			(xy 266.7 60.96) (xy 264.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3430,7 +3293,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 64.77) (xy 264.16 59.69)
+			(xy 264.16 60.96) (xy 264.16 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3460,7 +3323,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 88.9) (xy 251.46 95.25)
+			(xy 251.46 88.9) (xy 251.46 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3520,7 +3383,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 106.68) (xy 264.16 106.68)
+			(xy 266.7 110.49) (xy 264.16 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3630,7 +3493,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 73.66) (xy 261.62 73.66)
+			(xy 264.16 72.39) (xy 261.62 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3640,7 +3503,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 86.36) (xy 251.46 81.28)
+			(xy 251.46 86.36) (xy 251.46 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3690,7 +3553,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 67.31) (xy 266.7 67.31)
+			(xy 248.92 63.5) (xy 266.7 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3700,7 +3563,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 59.69) (xy 261.62 59.69)
+			(xy 264.16 55.88) (xy 261.62 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3800,7 +3663,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 83.82) (xy 248.92 67.31)
+			(xy 248.92 83.82) (xy 248.92 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3900,7 +3763,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 78.74) (xy 264.16 73.66)
+			(xy 264.16 77.47) (xy 264.16 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4000,7 +3863,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 78.74) (xy 264.16 78.74)
+			(xy 266.7 77.47) (xy 264.16 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4030,7 +3893,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 87.63) (xy 261.62 87.63)
+			(xy 264.16 88.9) (xy 261.62 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4050,7 +3913,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 81.28) (xy 266.7 81.28)
+			(xy 251.46 80.01) (xy 266.7 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4140,7 +4003,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 91.44) (xy 248.92 109.22)
+			(xy 248.92 91.44) (xy 248.92 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4170,7 +4033,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 101.6) (xy 261.62 101.6)
+			(xy 264.16 105.41) (xy 261.62 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4237,6 +4100,77 @@
 			(type default)
 		)
 		(uuid "f6d113a8-c600-46f1-8aaa-149b90eebf8b")
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 271.78 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06d8acc1-d834-4268-abce-144e9aa63166")
+		(property "Reference" "J2"
+			(at 272.415 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SQR"
+			(at 272.415 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 271.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 271.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "d9314dab-4770-4e72-a0d6-0787216f9efe")
+		)
+		(pin "T"
+			(uuid "9766ce05-70b4-411a-9ca8-9d9957a2f62e")
+		)
+		(pin "TN"
+			(uuid "87146523-c312-4e29-9720-0836b4020a7f")
+		)
+		(instances
+			(project "VCO 2"
+				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4306,7 +4240,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 73.66 0)
+		(at 261.62 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4315,7 +4249,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cc3646f-8434-4011-92b9-d08817c98e7e")
 		(property "Reference" "#PWR012"
-			(at 261.62 80.01 0)
+			(at 261.62 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4258,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 78.74 0)
+			(at 261.62 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +4266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 73.66 0)
+			(at 261.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 73.66 0)
+			(at 261.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 73.66 0)
+			(at 261.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,6 +4299,77 @@
 			(project "VCO 2"
 				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 271.78 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28e32229-1213-4f26-8a63-aa70e0e59936")
+		(property "Reference" "J4"
+			(at 272.415 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SAW"
+			(at 272.415 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 271.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 271.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "26977586-90bf-4ee7-98df-b64978f78909")
+		)
+		(pin "T"
+			(uuid "e89cad41-1e53-4ed2-8864-8a5837ddeec9")
+		)
+		(pin "TN"
+			(uuid "62357ac7-744d-4e34-8d44-9c5f804b9e15")
+		)
+		(instances
+			(project "VCO 2"
+				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5235,74 +5240,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 271.78 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e8005d4-4deb-4c9b-a3cf-d3c8f9e13b74")
-		(property "Reference" "J6"
-			(at 272.415 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SAW"
-			(at 272.415 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
-			(at 271.78 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 271.78 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "25f0ba65-861d-4a66-9c06-731604c6b4f8")
-		)
-		(pin "T"
-			(uuid "5b398a9a-710b-4ca6-9119-cde2ab2bbc5c")
-		)
-		(instances
-			(project "VCO 2"
-				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 199.39 88.9 270)
 		(unit 1)
@@ -5512,7 +5449,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 59.69 0)
+		(at 261.62 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5521,7 +5458,7 @@
 		(fields_autoplaced yes)
 		(uuid "807efd82-aaa9-4d4d-a366-3a9dbacb8f22")
 		(property "Reference" "#PWR011"
-			(at 261.62 66.04 0)
+			(at 261.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5530,7 +5467,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 64.77 0)
+			(at 261.62 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +5475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 59.69 0)
+			(at 261.62 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +5484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 59.69 0)
+			(at 261.62 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +5493,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 59.69 0)
+			(at 261.62 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5571,74 +5508,6 @@
 			(project ""
 				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 271.78 95.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "828c5e74-2243-46b6-94a7-31e472a51724")
-		(property "Reference" "J7"
-			(at 272.415 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TRI"
-			(at 272.415 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
-			(at 271.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 271.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "269e7f5c-1dc4-464f-a626-3f66ed23e1bf")
-		)
-		(pin "T"
-			(uuid "1c289b5a-bb7a-44c0-a035-08bebb6076ca")
-		)
-		(instances
-			(project "VCO 2"
-				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6134,8 +6003,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 271.78 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3e2632c-e951-4091-b637-b1182d2f82af")
+		(property "Reference" "J5"
+			(at 272.415 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TRI"
+			(at 272.415 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 271.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 271.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "199c4544-968a-40e0-9450-f19bc7593595")
+		)
+		(pin "T"
+			(uuid "1280fcd8-fa11-4f51-bc68-8018a0240c90")
+		)
+		(pin "TN"
+			(uuid "01e76eea-526e-468b-a735-930e053b0cef")
+		)
+		(instances
+			(project "VCO 2"
+				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 261.62 87.63 0)
+		(at 261.62 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6144,7 +6084,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3e6c648-0f8d-4dca-9d75-33fa7b769ace")
 		(property "Reference" "#PWR013"
-			(at 261.62 93.98 0)
+			(at 261.62 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 92.71 0)
+			(at 261.62 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 87.63 0)
+			(at 261.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 87.63 0)
+			(at 261.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +6119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 87.63 0)
+			(at 261.62 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,74 +6134,6 @@
 			(project "VCO 2"
 				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 271.78 67.31 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b72aa689-abb7-4319-b59b-254d5089d33d")
-		(property "Reference" "J5"
-			(at 272.415 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SQR"
-			(at 272.415 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
-			(at 271.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 271.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "e303ecbf-00be-4a05-8ef4-0f7f5faa6a8d")
-		)
-		(pin "T"
-			(uuid "0bca4d8c-dbf3-4a11-85e7-d3f6b9566307")
-		)
-		(instances
-			(project ""
-				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6340,7 +6212,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 101.6 0)
+		(at 261.62 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6349,7 +6221,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3a9c813-237e-4a83-98ad-40ce6aad6a47")
 		(property "Reference" "#PWR014"
-			(at 261.62 107.95 0)
+			(at 261.62 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,7 +6230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 106.68 0)
+			(at 261.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +6238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 101.6 0)
+			(at 261.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 101.6 0)
+			(at 261.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +6256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 101.6 0)
+			(at 261.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,6 +6408,77 @@
 			(project "VCO 2"
 				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 271.78 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9070b11-4940-4e7f-96a2-b7c34f09ffec")
+		(property "Reference" "J6"
+			(at 272.415 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SIN"
+			(at 272.415 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
+			(at 271.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 271.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "71859e54-a0f2-419e-8942-a63a59da2295")
+		)
+		(pin "T"
+			(uuid "884d5d4b-f9af-4d20-a696-21260f89f6af")
+		)
+		(pin "TN"
+			(uuid "0ab69f36-d2d7-4b30-84b6-98bafe302804")
+		)
+		(instances
+			(project "VCO 2"
+				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6872,74 +6815,6 @@
 			(project "VCO 2"
 				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 271.78 109.22 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee0ae7e6-02b9-4f63-99bd-a36e67fd8355")
-		(property "Reference" "J8"
-			(at 272.415 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SIN"
-			(at 272.415 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles"
-			(at 271.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 271.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "5b05e903-806b-4ea6-8acc-3fd1311e8ab6")
-		)
-		(pin "T"
-			(uuid "885f62c6-7839-43c1-a5e3-ffc9078b315a")
-		)
-		(instances
-			(project "VCO 2"
-				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
-					(reference "J8")
 					(unit 1)
 				)
 			)
