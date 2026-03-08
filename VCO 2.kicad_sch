@@ -11173,7 +11173,7 @@
 				)
 			)
 		)
-		(property "Value" "9K"
+		(property "Value" "9.1K"
 			(at 199.39 135.89 90)
 			(effects
 				(font
@@ -15918,7 +15918,7 @@
 				)
 			)
 		)
-		(property "Value" "530"
+		(property "Value" "510"
 			(at 210.82 135.89 90)
 			(effects
 				(font
@@ -16961,7 +16961,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1μF"
+		(property "Value" "10μF"
 			(at 179.07 129.5399 0)
 			(effects
 				(font
