@@ -2680,7 +2680,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "VCO II (front panel)"
+	(text "VCO II (controls)"
 		(exclude_from_sim no)
 		(at 205.74 189.738 0)
 		(effects
