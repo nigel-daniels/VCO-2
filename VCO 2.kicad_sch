@@ -14275,7 +14275,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SAW"
+		(property "Value" "Saw"
 			(at 146.05 51.3079 0)
 			(effects
 				(font
@@ -14583,7 +14583,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SIN"
+		(property "Value" "Sine"
 			(at 308.61 49.0221 0)
 			(effects
 				(font
@@ -14783,7 +14783,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TRI"
+		(property "Value" "Tri"
 			(at 147.32 80.5179 0)
 			(effects
 				(font
@@ -18032,7 +18032,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SQR"
+		(property "Value" "Sqr"
 			(at 146.05 27.1779 0)
 			(effects
 				(font
