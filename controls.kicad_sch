@@ -6150,7 +6150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch:SW_Toggle_Blue_wSlots"
+		(property "Footprint" "Mini-Switch:2MS1T1-M2_DYW"
 			(at 198.12 107.95 0)
 			(hide yes)
 			(show_name no)
