@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
-   width="297.0022mm"
-   height="210.0072mm"
-   viewBox="0.0000 0.0000 297.0022 210.0072"
+   width="11in"
+   height="8.5in"
+   viewBox="0 0 279.40001 215.9"
    id="svg182"
    sodipodi:docname="VCO 2-Edge_Cuts.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25)"
@@ -27,7 +27,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.68770319"
-     inkscape:cx="551.8369"
+     inkscape:cx="552.56396"
      inkscape:cy="375.16185"
      inkscape:window-width="1512"
      inkscape:window-height="875"
@@ -329,11 +329,11 @@
          sodipodi:role="line"
          id="tspan254"
          style="fill:#000000;fill-opacity:1;stroke-width:0.2"
-         x="26.590624"
-         y="130.43958" /></text>
+         x="0"
+         y="0" /></text>
     <g
        id="g2"
-       transform="translate(0.38473478,-3.462613)">
+       transform="translate(-5.3862869,-4.2320826)">
       <circle
          cx="30.097225"
          cy="109.997"
@@ -582,7 +582,7 @@
         <path
            id="path263"
            style="display:inline;fill:#000000;fill-opacity:0.401899;stroke:none;stroke-width:0.2;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.8"
-           d="m 57.62749,115.97173 -6.806303,6.80682 H 14.385168 l -5.16e-4,1.43867 23.813533,-5.1e-4 10.47533,10.47533 v 7.15305 h 0.799951 v -0.001 h 0.798918 v 0.001 h 0.799951 v -5.13405 l 0.001,-0.75861 -11.735717,-11.73572 14.439945,-5.2e-4 5.122685,-5.12372 19.578133,0.001 v -3.12178 z" />
+           d="m 57.62749,115.97173 -6.806303,6.80682 H 14.385168 l -5.16e-4,1.43867 23.813533,-5.1e-4 10.47533,10.47533 v 7.15305 h 0.799951 v -0.001 h 0.798918 v 0.001 h 0.799951 v -5.13405 l 10e-4,-0.75861 -11.735717,-11.73572 14.439945,-5.2e-4 5.122685,-5.12372 19.578133,10e-4 v -3.12178 z" />
         <path
            style="display:inline;fill:#000000;fill-opacity:0.401899;stroke:none;stroke-width:0.1;stroke-linejoin:round;stroke-opacity:0.401051"
            d="m 45.476825,132.6259 2.398394,2.39943 -7.81e-4,2.12154 -2.398463,-2.39931 z"
@@ -936,7 +936,7 @@
     </g>
     <g
        id="g3"
-       transform="translate(65.807344,-2.9281646)">
+       transform="translate(60.036322,-3.6976342)">
       <circle
          cx="30.097225"
          cy="109.997"
@@ -1539,7 +1539,7 @@
     </g>
     <g
        id="g3-8"
-       transform="translate(132.73545,-2.9809937)">
+       transform="translate(126.96443,-3.7504633)">
       <circle
          cx="30.097225"
          cy="109.997"
@@ -2142,7 +2142,7 @@
     </g>
     <g
        id="g3-8-6"
-       transform="translate(199.14461,-3.8528074)">
+       transform="translate(193.37359,-4.622277)">
       <circle
          cx="30.097225"
          cy="109.997"
@@ -2745,7 +2745,7 @@
     </g>
     <g
        id="g3-8-5"
-       transform="rotate(90,48.322003,175.0707)">
+       transform="rotate(90,44.089921,173.53176)">
       <circle
          cx="30.097225"
          cy="109.997"
