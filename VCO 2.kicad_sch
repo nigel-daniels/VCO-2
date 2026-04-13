@@ -12158,7 +12158,7 @@
 				)
 			)
 		)
-		(property "Value" "9.1K"
+		(property "Value" "9K1"
 			(at 228.6 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19390,12 +19390,13 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 234.95 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
+					(face "KiCad Font")
 					(size 1.27 1.27)
 				)
 			)
