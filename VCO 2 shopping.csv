@@ -1,59 +1,55 @@
-﻿Qty,Value,Footprint
-1,10nF f,Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm
-3,10uF c,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
-1,100nF c,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
-7,0.1uF c,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
-1,1000pF f,Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm
-2,1nF f,Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm
-2,100nF f,Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm
-2,47uF e,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm
-1,LED,LED_THT:LED_D3.0mm_FlatTop
-2,1N5819,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal
-1,connector 1x4s,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical
-1,SQR,Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles
-1,connector 1x4h,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
-1,SAW,Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles
-1,TRI,Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles
-1,SIN,Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles
-1,connector 1x8h,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical
-1,connector 1x8s,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical
-3,connector 1x6s,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical
-3,connector 1x6h,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
-5,Thonkiconn,Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles
-1,connector 1x2s,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
-1,connector 1x2h,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
-1,Eurorack 2x8hs,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical
-2,2N3904,Package_TO_SOT_THT:TO-92_Inline_Wide
-1,24K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
-1,5K6,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-1,470K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
-5,10K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-4,470R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-2,220R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-1,68K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-4,33K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-9,100K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-3,4K7,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-1,680R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-1,1M5,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-2,1M,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
-1,P 1K8,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-5,P 10K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-1,9K1,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-1,510R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-6,1K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-1,1K5,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-1,470R/520R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-2,10R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
-2,Trim pot 100K,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
-4,Pot 100K,Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical
-1,Trim pot 1K,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
-1,Trim pot 20K,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
-1,Trim pot 10K,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
-1,Trim pot 50k,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
-1,SW_SPDT,sub-miniture-SPDT:Sub-miniture SPDT
-6,Test point,TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm
-1,CEM3340,Package_DIP:DIP-16_W7.62mm
-2,TL074,Package_DIP:DIP-14_W7.62mm
-1,LM336Z-2.5,Voltage Ref Diode:Z03A
-1,RS1702A0A-HA1,Rotary 6-Way SW:rotary-6-way-sw
+﻿Qty,Value,,Footprint
+1,10nF f,103,Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm
+3,10uF c,106,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
+1,100nF c,104,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
+7,0.1uF c,104,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm
+1,1000pF f,102,Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm
+2,1nF f,102,Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm
+2,100nF f,104/100n,Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm
+2,47uF e,,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm
+1,LED,,LED_THT:LED_D3.0mm_FlatTop
+2,1N5819,,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal
+1,connector 1x4s,,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical
+1,connector 1x4h,,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+1,connector 1x8h,,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical
+1,connector 1x8s,,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical
+3,connector 1x6s,,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical
+3,connector 1x6h,,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+9,Thonkiconn,,Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles
+1,connector 1x2s,,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical
+1,connector 1x2h,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+1,Eurorack 2x8hs,,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical
+2,2N3904,,Package_TO_SOT_THT:TO-92_Inline_Wide
+1,24K,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+1,5K6,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+1,470K,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+5,10K,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+4,470R,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+2,220R,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+1,68K,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+4,33K,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+9,100K,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+3,4K7,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+1,680R,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+1,1M5,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+2,1M,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+1,P 1K8,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+5,P 10K,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+1,9K1,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+1,510R,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+6,1K,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+1,1K5,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+1,470R/520R,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+2,10R,,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical
+2,Trim pot 100K,,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+4,Pot 100K,,Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical
+1,Trim pot 1K,,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+1,Trim pot 20K,,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+1,Trim pot 10K,,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+1,Trim pot 50k,,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical
+1,SW_SPDT,,sub-miniture-SPDT:Sub-miniture SPDT
+6,Test point,,TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm
+1,CEM3340,,Package_DIP:DIP-16_W7.62mm
+2,TL074,,Package_DIP:DIP-14_W7.62mm
+1,LM336Z-2.5,,Voltage Ref Diode:Z03A
+1,RS1702A0A-HA1,,Rotary 6-Way SW:rotary-6-way-sw
