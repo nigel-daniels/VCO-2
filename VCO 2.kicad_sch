@@ -4673,6 +4673,16 @@
 		)
 		(uuid "ba506ca0-8dff-41df-8001-df2720ba34ed")
 	)
+	(text "1.3"
+		(exclude_from_sim no)
+		(at 393.446 280.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bee5c8e2-2561-4e3e-8b41-7d95897df127")
+	)
 	(text "PWM, FM and Sync Inputs"
 		(exclude_from_sim no)
 		(at 66.04 232.41 0)

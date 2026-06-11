@@ -2736,6 +2736,16 @@
 		)
 		(uuid "50492d89-0def-4d0a-9529-499a3de39d35")
 	)
+	(text "1.3"
+		(exclude_from_sim no)
+		(at 270.51 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9bde97a-1346-4c4f-a3fa-ef4ef969b6f2")
+	)
 	(junction
 		(at 196.85 73.66)
 		(diameter 0)
@@ -3248,16 +3258,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 63.5) (xy 113.03 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "634603dc-a4d2-48a4-8518-fa97b39a8a84")
-	)
-	(wire
-		(pts
 			(xy 213.36 105.41) (xy 213.36 116.84)
 		)
 		(stroke
@@ -3535,6 +3535,16 @@
 			(type default)
 		)
 		(uuid "931924dd-37c9-43f2-b353-0693e93dfba2")
+	)
+	(wire
+		(pts
+			(xy 107.95 63.5) (xy 113.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b99251-0cb7-4f63-918c-ff47cae39506")
 	)
 	(wire
 		(pts
@@ -4322,98 +4332,6 @@
 			(project "VCO 2"
 				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 102.87 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1366489e-9381-4191-8bab-5a2f2b9dec9f")
-		(property "Reference" "J22"
-			(at 103.505 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OCT 1x6h"
-			(at 103.505 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 102.87 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 102.87 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "61c9d107-b9e4-4fec-90cf-1cc1d903f909")
-		)
-		(pin "5"
-			(uuid "5f9c0fba-e141-4996-b7b7-97b6b26570f0")
-		)
-		(pin "6"
-			(uuid "e29d05da-0b2d-4636-97fc-6637f29bdcec")
-		)
-		(pin "3"
-			(uuid "4d5361ec-c59c-45f1-b786-0078f32e14ab")
-		)
-		(pin "1"
-			(uuid "baf335fa-f813-4605-bf06-04ba62586357")
-		)
-		(pin "2"
-			(uuid "df4cd9a3-e80f-4ff9-ba37-1bb43203a42b")
-		)
-		(instances
-			(project "VCO 2"
-				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
-					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -6380,7 +6298,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 45.72 113.03 90)
+		(at 45.72 113.03 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6388,7 +6307,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "acb774ae-66da-411b-8187-4510447fb294")
 		(property "Reference" "RV2"
 			(at 45.72 116.84 90)
@@ -7265,8 +7183,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 44.45 48.26 90)
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 102.87 58.42 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7275,6 +7194,98 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "dad24068-02b1-45a3-99c9-1fedcab28c74")
+		(property "Reference" "J22"
+			(at 103.505 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OCT 1x6h"
+			(at 103.505 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 102.87 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 102.87 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "3ae5b923-6d85-427b-b41c-6709001da91d")
+		)
+		(pin "5"
+			(uuid "64b8d17f-4fd3-475b-a47f-a2b89c7c5750")
+		)
+		(pin "6"
+			(uuid "d466a5e0-f94b-442e-b34a-5e5268579171")
+		)
+		(pin "3"
+			(uuid "a955f9d9-ec24-4adb-a07f-2069af70a9bb")
+		)
+		(pin "1"
+			(uuid "edfbfadf-16bd-463f-90fd-92336160f177")
+		)
+		(pin "2"
+			(uuid "655c846e-1fe3-4c23-8df7-9982c9a355f3")
+		)
+		(instances
+			(project "VCO 2"
+				(path "/eb1652b6-57da-4a0e-88a4-449907a19840/2395376b-3fab-44b6-8171-4759de5684a3"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 44.45 48.26 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "e2f2e7db-9839-4f65-a32a-9ea8d4407aa6")
 		(property "Reference" "RV3"
 			(at 44.45 52.07 90)
